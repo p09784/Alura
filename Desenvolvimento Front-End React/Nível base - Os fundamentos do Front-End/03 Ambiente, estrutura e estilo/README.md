@@ -1,28 +1,26 @@
-# Projeto: Pesquisa Culturama
+Curso de HTML e CSS: ambiente, estrutura e estilo
 
-Pequeno projeto de exemplo usado nas aulas do curso "Ambiente, estrutura e estilo".
+Faça esse curso de HTML e CSS e:
+    Compreenda os fundamentos do HTML e a semântica das tags.
+    Aplique estilos e técnicas de responsividade com CSS.
+    rganize e estruture o código para facilitar a manutenção.
+    Explore as funcionalidades do Visual Studio Code para aumentar a produtividade.
+    Utilize o Git e GitHub para controlar versões e colaborar em projetos.
+    Publique sites estáticos utilizando o GitHub Pages.
+    Integre layouts e interfaces por meio do Figma para aprimorar a experiência do usuário.
 
-Arquivos principais:
+Aulas
+    01. Configurando o ambiente e criando o primeiro site Ver primeiro vídeo
+    02. Explorando as tags HTML
+    03. HTML semântico e boas práticas de layout
+    04. Estilizando e adaptando layouts com CSS
+    05. Compartilhando o projeto com Git e GitHub
+    06. Hospedagem e publicação de sites
 
-- `semantica.html/index.html` — página principal atualizada com título **Pesquisa Culturama** e link para o formulário.
-- `pesquisa-culturama/index.html` — formulário semântico criado (nome, email, idade, cidade, gênero, opinião).
-- `pesquisa-culturama/css/style.css` — estilos básicos para o formulário.
+Carreira com esse curso
+    Desenvolvimento Front-End React
 
-Como visualizar localmente
+Instrutor(a)
+    Daniele Ligieri Castilho
 
-1. Abra o diretório deste módulo no seu editor (VS Code).
-2. Abra o arquivo `semantica.html/index.html` ou `pesquisa-culturama/index.html` no navegador (duplo-clique ou `Abrir com > Navegador`).
-
-Se quiser servir localmente com um servidor (recomendado para rotas relativas), use uma extensão como **Live Server** do VS Code ou rode um servidor simples no terminal (caso tenha permissão):
-
-```powershell
-npx http-server . -p 5500
-```
-
-Observações
-
-- Commits foram criados via API: "Adiciona formulário inicial na Pesquisa Culturama", "Atualiza semantica: título e seção para Pesquisa Culturama" e "Adiciona CSS básico para Pesquisa Culturama".
-- Se preferir que eu reverta as alterações no repositório remoto, me informe.
-
----
-Feito por automação via editor — abra os arquivos e valide localmente quando puder.
+https://cursos.alura.com.br/course/html-css-ambiente-estrutura-estilo
