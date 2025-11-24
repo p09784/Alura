@@ -19,7 +19,7 @@
         <h2>Pesquisa Online</h2>
         <p>Esta página servirá como base para o formulário de pesquisa. Preencha os dados abaixo e envie sua opinião.</p>
 
-        <form action="#" method="post" class="form-pesquisa" novalidate>
+        <form action="#" method="post" class="form-pesquisa">
           <fieldset>
             <legend>Formulário de Pesquisa</legend>
 
@@ -34,6 +34,22 @@
 
             <label for="cidade">Cidade</label>
             <input type="text" id="cidade" name="cidade" placeholder="Cidade / Estado">
+
+            <label for="telefone">Telefone</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}"
+              placeholder="(00) 00000-0000"
+              title="Digite no formato (00) 00000-0000"
+            >
+
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" name="nascimento">
+
+            <label for="foto">Foto (opcional)</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
 
             <label for="genero">Gênero</label>
             <select id="genero" name="genero">
