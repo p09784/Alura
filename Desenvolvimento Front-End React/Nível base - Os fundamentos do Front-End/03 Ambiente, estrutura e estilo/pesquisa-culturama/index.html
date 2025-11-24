@@ -120,6 +120,31 @@
             <label for="opiniao">Sua opinião</label>
             <textarea id="opiniao" name="opiniao" rows="5" placeholder="Conte o que achou..."></textarea>
 
+            <fieldset>
+              <legend>Preferências</legend>
+
+              <label for="estilo">Estilo musical favorito</label>
+              <input type="text" id="estilo" name="estilo" list="estilosMusicais" placeholder="Ex: Rock">
+              <datalist id="estilosMusicais">
+                <option value="Rock">
+                <option value="Pop">
+                <option value="Samba">
+                <option value="MPB">
+                <option value="Eletrônica">
+                <option value="Jazz">
+                <option value="Clássica">
+              </datalist>
+
+              <label for="corFavorita">Cor favorita</label>
+              <input type="color" id="corFavorita" name="corFavorita" value="#000000">
+
+              <details>
+                <summary>Mais opções de contato</summary>
+                <label for="contatoAlternativo">Telefone alternativo</label>
+                <input type="tel" id="contatoAlternativo" name="contatoAlternativo" placeholder="(00) 00000-0000">
+              </details>
+            </fieldset>
+
             <button type="submit">Enviar pesquisa</button>
           </fieldset>
         </form>
