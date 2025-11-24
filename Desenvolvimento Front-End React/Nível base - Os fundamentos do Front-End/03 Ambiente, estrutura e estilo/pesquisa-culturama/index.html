@@ -51,13 +51,66 @@
             <label for="foto">Foto (opcional)</label>
             <input type="file" id="foto" name="foto" accept="image/*">
 
-            <label for="genero">Gênero</label>
-            <select id="genero" name="genero">
+            <fieldset>
+              <legend>Gênero</legend>
+              <label>
+                <input type="radio" name="genero" value="feminino" required>
+                Feminino
+              </label>
+              <label>
+                <input type="radio" name="genero" value="masculino">
+                Masculino
+              </label>
+              <label>
+                <input type="radio" name="genero" value="nao-binario">
+                Não binário
+              </label>
+              <label>
+                <input type="radio" name="genero" value="prefiro-nao-dizer">
+                Prefiro não dizer
+              </label>
+            </fieldset>
+
+            <label for="estadoCivil">Estado civil</label>
+            <select id="estadoCivil" name="estadoCivil" required>
               <option value="">-- selecione --</option>
-              <option value="feminino">Feminino</option>
-              <option value="masculino">Masculino</option>
-              <option value="nao-binario">Não binário</option>
-              <option value="prefiro-nao-dizer">Prefiro não dizer</option>
+              <option value="solteiro">Solteiro(a)</option>
+              <option value="casado">Casado(a)</option>
+              <option value="uniao">União Estável</option>
+              <option value="divorciado">Divorciado(a)</option>
+              <option value="viuvo">Viúvo(a)</option>
+            </select>
+
+            <label for="estado">Estado (UF)</label>
+            <select id="estado" name="estado">
+              <option value="">-- selecione estado --</option>
+              <option value="AC">Acre (AC)</option>
+              <option value="AL">Alagoas (AL)</option>
+              <option value="AP">Amapá (AP)</option>
+              <option value="AM">Amazonas (AM)</option>
+              <option value="BA">Bahia (BA)</option>
+              <option value="CE">Ceará (CE)</option>
+              <option value="DF">Distrito Federal (DF)</option>
+              <option value="ES">Espírito Santo (ES)</option>
+              <option value="GO">Goiás (GO)</option>
+              <option value="MA">Maranhão (MA)</option>
+              <option value="MG">Minas Gerais (MG)</option>
+              <option value="MS">Mato Grosso do Sul (MS)</option>
+              <option value="MT">Mato Grosso (MT)</option>
+              <option value="PA">Pará (PA)</option>
+              <option value="PB">Paraíba (PB)</option>
+              <option value="PE">Pernambuco (PE)</option>
+              <option value="PI">Piauí (PI)</option>
+              <option value="PR">Paraná (PR)</option>
+              <option value="RJ">Rio de Janeiro (RJ)</option>
+              <option value="RN">Rio Grande do Norte (RN)</option>
+              <option value="RO">Rondônia (RO)</option>
+              <option value="RR">Roraima (RR)</option>
+              <option value="RS">Rio Grande do Sul (RS)</option>
+              <option value="SC">Santa Catarina (SC)</option>
+              <option value="SE">Sergipe (SE)</option>
+              <option value="SP">São Paulo (SP)</option>
+              <option value="TO">Tocantins (TO)</option>
             </select>
 
             <label for="opiniao">Sua opinião</label>

@@ -16,7 +16,6 @@ Como visualizar localmente
 Se quiser servir localmente com um servidor (recomendado para rotas relativas), use uma extensão como **Live Server** do VS Code ou rode um servidor simples no terminal (caso tenha permissão):
 
 ```powershell
-# Serve o diretório atual em http://localhost:5500 (se tiver o live-server instalado globalmente)
 npx http-server . -p 5500
 ```
 
