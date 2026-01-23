@@ -1,7 +1,3 @@
-// IF/ELSE
-
-// definir um fluxo para somar ou multiplicar dois números usando if/else
-
 const num1 = 2;
 const num2 = 4;
 const operacao = 'divisão';
@@ -13,12 +9,6 @@ if (operacao === 'soma') {
 } else {
     console.log('Operação não identificada');
 }
-
-// localizar o nivel de bônus de acordo com a faixa salarial 
-// ex: $11000 e acima: 3% de bônus 
-// $10999 a $7000: 5% de bônus 
-// $ 6999 a $4008: 7% de bônus 
-// $3999 p baixo: 9% de bônus 
 
 const salarіо = 2000;
 
@@ -38,4 +28,28 @@ if ((ano % 4 === 0) && (ano % 100 !== 0)) {
     console.log(`${ano} é bissexto`);
 } else {
     console.log(`${ano} não é bissexto`);
+}
+
+const nome = "Roberta";
+const nota = 8;
+const faltas = 2;
+
+const recebeBonus = (nota >= 8) && (faltas <= 2)
+    ? `${nome} recebe bônus`
+    : `${nome} não recebe bônus`;
+
+console.log(recebeBonus);
+
+const user = 'premium';
+
+switch(user){
+    case 'free':
+    console.log('acesso limitado');
+    break;
+    case 'premium':
+    console.log('acesso total ao app');
+    break;
+    case 'super premium':
+    console.log('acesso total ao app e bônus');
+    break;
 }
