@@ -31,3 +31,11 @@ if (salario >= 11000) {
 } else {
     console.log('9% de bônus');
 }
+
+const ano = 2000;
+
+if ((ano % 4 === 0) && (ano % 100 !== 0)) {
+    console.log(`${ano} é bissexto`);
+} else {
+    console.log(`${ano} não é bissexto`);
+}
